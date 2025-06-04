@@ -3,6 +3,7 @@ import { ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 import Button from '../ui/Button';
 
+
 interface HeroImage {
   url: string;
   alt: string;
@@ -10,18 +11,19 @@ interface HeroImage {
 
 const heroImages: HeroImage[] = [
   {
-    url: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1500',
+    url:'public/images/home-page-images/new-office.jpg',
     alt: 'Modern architectural building with clean lines',
   },
   {
-    url: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1500',
+    url: 'public/images/home-page-images/cabin.jpg',
     alt: 'Elegant interior design with natural light',
   },
   {
-    url: 'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1500',
+    url: 'public/images/home-page-images/chandelier-pune.jpg',
     alt: 'Residential architecture with clean geometric shapes',
   },
 ];
+
 
 const Hero = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

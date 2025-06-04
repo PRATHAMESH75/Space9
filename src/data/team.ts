@@ -9,18 +9,18 @@ export interface TeamMember {
 export const teamMembers: TeamMember[] = [
   {
     id: 1,
-    name: 'Michael Rivera',
-    role: 'Principal Architect & Founder',
-    bio: 'With over 20 years of experience in architecture, Michael founded Space9 with a vision to create a firm that integrates design and construction seamlessly. His work has been recognized with numerous design awards and publications in leading architectural journals.',
-    image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=600',
+    name: 'Suchita Chaudhari',
+    role: 'Architect & Interior Designer',
+    bio: 'With over 15 years of experience in architecture, she founded Space9 with a vision to create a firm that integrates design and construction seamlessly. His work has been recognized with numerous design awards and publications in leading architectural journals.',
+    image: 'images/suchita.JPG',
   },
   {
     id: 2,
-    name: 'Sophia Chen',
+    name: 'Nirnay Chaudhari',
     role: 'Interior Design Director',
     bio: 'Sophia brings her refined aesthetic sensibility and technical expertise to every project. With a background in both fine arts and interior architecture, she creates spaces that are both beautiful and functional, paying meticulous attention to materials, light, and spatial flow.',
-    image: 'https://images.pexels.com/photos/762080/pexels-photo-762080.jpeg?auto=compress&cs=tinysrgb&w=600',
-  },
+    image: '',
+  },/*
   {
     id: 3,
     name: 'James Harrison',
@@ -48,5 +48,6 @@ export const teamMembers: TeamMember[] = [
     role: 'Senior Interior Designer',
     bio: 'Emma has a talent for creating interiors that feel both timeless and contemporary. Her knowledge of historical design traditions combined with her awareness of current trends allows her to craft spaces with depth and longevity that resist passing fads.',
     image: 'https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=600',
-  },
+  },*/
 ];
+

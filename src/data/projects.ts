@@ -49,11 +49,11 @@ export const projects: Project[] = [
   },
   {
     id: 'commercial-complex',
-    title: 'Nexus Commercial Complex',
+    title: 'Om Trinity',
     category: 'Buildership',
     excerpt: 'A multi-use commercial building with offices, retail, and public spaces.',
     description: 'Nexus is a forward-thinking commercial development that combines work, retail, and leisure in one cohesive environment. Our team managed the entire construction process, implementing innovative building techniques and sustainable practices. The complex features a central atrium with natural vegetation, creating a microclimate that enhances occupant comfort while reducing energy consumption.',
-    coverImage: 'https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    coverImage: 'public/images/projects/om-trinity.jpg',
     images: [
       'https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       'https://images.pexels.com/photos/2079246/pexels-photo-2079246.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',

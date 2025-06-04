@@ -52,3 +52,14 @@ export default {
   },
   plugins: [],
 };
+
+module.exports = {
+  theme: {
+    extend: {
+      fontFamily: {
+        stop: ['"Stop"', 'sans-serif'],
+      },
+    },
+  },
+};
+
